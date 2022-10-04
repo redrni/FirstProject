@@ -17,18 +17,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" misplaced="YES" image="moon.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="vIx-7A-KCl">
-                                <rect key="frame" x="89" y="256" width="253" height="167"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="moon.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="vIx-7A-KCl">
+                                <rect key="frame" x="31" y="256" width="363" height="229"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" systemColor="linkColor"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                         <color key="tintColor" systemColor="systemOrangeColor"/>
-                        <constraints>
-                            <constraint firstItem="vIx-7A-KCl" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="2Ul-t6-OsH"/>
-                            <constraint firstItem="vIx-7A-KCl" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="iLQ-T7-eDF"/>
-                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
